@@ -1,0 +1,6 @@
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/Harshit-Paradox/Loom-Bloom
+[submodule "HB_dashboard"]
+	path = HB_dashboard
+	url = https://github.com/R0hitPoonia-dev/HB_dashboard
