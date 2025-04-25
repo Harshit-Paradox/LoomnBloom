@@ -39,7 +39,7 @@ const s3Client = new S3Client({
 const multerStorage = multerS3({
 	s3: s3Client,
 	contentType: multerS3.AUTO_CONTENT_TYPE,
-	bucket: "haatbazaar-data",
+	bucket: "loomnbloom-data",
 	key: function (req: any, file: any, cb: any) {
 		const origName = `${file.originalname}`;
 		const extName = `.${file.mimetype.split("/")[1]}`;
